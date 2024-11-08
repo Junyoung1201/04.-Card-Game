@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import './Card.css';
 import { I_Card } from "./types/card";
 import { store } from "./store/store";
