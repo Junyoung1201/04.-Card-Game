@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": ".",
+  "homepage": "https://junyoung1201.github.io/card-game/",
   "scripts": {
     "dev": "cross-env BROWSER=none vite",
     "build": "tsc -b && vite build",
