@@ -1,8 +1,8 @@
 import React from "react";
 import './Card.css';
-import { I_Card } from "./types/card";
-import { store } from "./store/store";
-import { gameSlice } from "./store/game";
+import { I_Card } from "types/card";
+import { store } from "store/store";
+import { gameSlice } from "store/game";
 
 function Card(props: I_Card) {
     

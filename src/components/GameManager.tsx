@@ -1,8 +1,8 @@
 import { useSelector } from "react-redux";
-import { RootState, store } from "./store/store";
+import { RootState, store } from "store/store";
 import { useEffect } from "react";
-import { gameSlice } from "./store/game";
-import { GameState } from "./types/game";
+import { gameSlice } from "store/game";
+import { GameState } from "types/game";
 
 export default function GameManager() {
     const {state,life,cardList} = useSelector((state: RootState) => state.game);

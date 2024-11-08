@@ -1,11 +1,11 @@
 import { useSelector } from "react-redux"
-import CardList from "./CardList"
-import { RootState, store } from "./store/store"
-import { GameState } from "./types/game";
-import './App.css';
-import GameManager from "./GameManager";
+import { RootState, store } from "store/store"
+import { GameState } from "types/game";
+import CardList from "components/CardList"
+import GameManager from "components/GameManager";
 import { GAME_OVER_SUBTITLE, GAME_OVER_TITLE, LIFE_CHAR, LIFE_LABEL, VICTORY_SUBTITLE, VICTORY_TITLE } from "./strings";
-import { gameSlice } from "./store/game";
+import { gameSlice } from "store/game";
+import './App.css';
 
 export default function App() {
 
